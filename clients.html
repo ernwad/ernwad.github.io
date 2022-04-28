@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Chapel Hill Wedding Planning</title>
+
+  </head>
+  <body>
+
+
+<div class="letsgetintouch">
+  <nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="planner.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                  <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Clients</a>
+                      <a href="vendors.html" class="dropdown-item">Vendors</a>
+                  </div>
+              </li>
+          </ul>
+
+      </div>
+  </div>
+</nav>
+
+  <h1>Let's Get in Touch</h1>
+
+</div>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Tell me about your wedding!</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Include potential dates!" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+
+
+<footer>
+<h1>© Chapel Hill Wedding Planning</h1>
+</footer>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+  </body>
+</html>

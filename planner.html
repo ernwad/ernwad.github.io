@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Chapel Hill Wedding Planning</title>
+
+  </head>
+  <body>
+
+
+<div class="meettheplanner">
+  <nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                  <div class="dropdown-menu">
+                      <a href="clients.html" class="dropdown-item">Clients</a>
+                      <a href="vendors.html" class="dropdown-item">Vendors</a>
+                  </div>
+              </li>
+          </ul>
+
+      </div>
+  </div>
+</nav>
+
+  <h1>Meet the Planner</h1>
+
+</div>
+
+<div class= "foryourspecialday">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/planner.jpg" class="plannerimage">
+      </div>
+      <div class="col-md-6">
+              <h1>Lauren Daltworth</h1>
+              <p>Lauren is a Senior Certified Wedding Planner with 10+ years of experience designing, planning, creating, and implementing unique and personal events for brides and other clients throughout the US. Lauren was born and raised in the hospitality industry, which has enabled her to bring a lifetime of expertise to wedding and event planning.</p>
+              <button class="btn meetplanner"><a href="clients.html">Let's Get in Touch</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="quote">
+    <blockquote> “I am absolutely in LOVE with weddings, from the dress and ceremony, to the flowers and reception. To look at a couple and see them enjoying themselves on their special day is just the best, and to know I had a hand in the process is truly the most gratifying thing in the world.”
+- Lauren</blockquote>
+  </div>
+
+
+
+<footer>
+<h1>© Chapel Hill Wedding Planning</h1>
+</footer>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+  </body>
+</html>
