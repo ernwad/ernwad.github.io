@@ -37,6 +37,10 @@ a.active {
   text-decoration: underline;
 }
 
+a {
+  color: color: #546A79;
+}
+
 a:visited {
   color: #546A79;
 }
