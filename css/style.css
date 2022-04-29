@@ -19,6 +19,13 @@ h1 {
   background-color: #8AB9E1;
 }
 
+.nav-link {
+  color: 546A79;
+}
+
+a {
+  color: 
+
 #navbar a {
   float: left;
   display: block;
@@ -38,7 +45,7 @@ a.active {
 }
 
 a {
-  color: #546A79;
+  color: #8AB9E1;
 }
 
 a:visited {
