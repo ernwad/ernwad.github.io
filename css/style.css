@@ -19,12 +19,6 @@ h1 {
   background-color: #8AB9E1;
 }
 
-.nav-link {
-  color: 546A79;
-}
-
-a {
-  color: 
 
 #navbar a {
   float: left;
@@ -60,7 +54,7 @@ a:visited {
   background-image: url(../images/hero.jpg);
   padding: 30px;
   text-align: center;
-  height: 50vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -80,7 +74,7 @@ a:visited {
   background-image: url(../images/weddingplanner.jpg);
   padding: 30px;
   text-align: center;
-  height: 50vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -155,7 +149,7 @@ a:visited {
   background-image: url(../images/touch.jpg);
   padding: 30px;
   text-align: center;
-  height: 50vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -169,7 +163,7 @@ a:visited {
   background-image: url(../images/touch.jpg);
   padding: 30px;
   text-align: center;
-  height: 50vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
